@@ -34,7 +34,7 @@ HousePricePredictor/
 │   └── Bengaluru_House_Data.pickle
 │
 ├── notebook/                        # Jupyter Notebook for training and EDA
-│   └── house_price_model.ipynb
+│   └── bhp.ipynb
 │
 ├── server.py                        # Flask backend script
 ├── requirements.txt                 # Python dependencies
@@ -53,7 +53,7 @@ HousePricePredictor/
 ## Installation (Local)
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:Faizan-Ali-Memon/House-price-predictor.git
 cd HousePricePredictor
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -81,10 +81,4 @@ To deploy this project on AWS:
 - Jupyter Notebook
 - AWS (EC2)
 
-## License
-
-MIT License
-
----
-
-**Author:** Faizan
+**Author:** Faizan Ali Memon
